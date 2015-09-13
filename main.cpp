@@ -47,7 +47,7 @@ static void * r(void* age){
 	char json[200000] ={0};
 	bool fuck = false;
 	char path[250]={0};
-	char l[]="/root/amazeui-2.4.2/tools/tasks/config/";
+	char l[]="/root/amazeui-master/tools/tasks/config/";
 
 
 
@@ -78,11 +78,11 @@ sprintf(cmd,"/root/node-v0.12.7-linux-x64/bin/gulp customize --type \"%s\" --pat
 printf("%s\r\n",cmd);
 	system(cmd);
 char cmd1[500]={0};
-sprintf(cmd1,"zip -r /root/amazeui-2.4.2/dist/%s.zip /root/amazeui-2.4.2/dist/%s",name,name);
+sprintf(cmd1,"zip -r /root/amazeui-master/dist/user/%s.zip /root/amazeui-master/dist/user/%s",name,name);
 	system(cmd1);
 
 char cmd2[500]={0};
-sprintf(cmd2,"mv /root/amazeui-2.4.2/dist/%s.zip /home/wwwroot/lnmp/domain/hyyyp.com/web/tmp/%s.zip",name,name);
+sprintf(cmd2,"mv /root/amazeui-master/dist/user/%s.zip /home/wwwroot/lnmp/domain/hyyyp.com/web/tmp/%s.zip",name,name);
 	system(cmd2);
 	send(s,"on",3,0);
 	
