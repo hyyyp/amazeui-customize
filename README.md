@@ -3,7 +3,7 @@ amazeui-customize
 AmazeUI 云定制服务
 
 
-<a href="http://www.hyyyp.com/amaze.html" target="_Blank" >hyyyp.com/amaze.html</a>
+<a href="http://amaze.hyphp.cn/" target="_Blank" >http://amaze.hyphp.cn/</a>
 
 
 g++ main.cpp -o thread -lpthread 编译服务端 <br>
